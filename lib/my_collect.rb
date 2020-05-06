@@ -1,5 +1,3 @@
-require 'pry'
-
 def my_collect(array)
   i = 0
   collection = []
@@ -8,10 +6,4 @@ def my_collect(array)
     i += 1
   end
   collection
-end
-
-binding.pry
-collection = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(collection) do |lang|
-  lang.upcase
 end
